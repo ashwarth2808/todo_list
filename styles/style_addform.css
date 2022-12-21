@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+}
+.content{
+	position:absolute;
+	display:block;
+	top:0%;
+	height:100%;
+	width:100%;
+	background-color:yellow;
+}
+.textbox_div {
+    position: absolute;
+    display: block;
+    padding: 30px 30px 30px 30px;
+    margin: 0;
+    top: 10%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 96px;
+    background-color: midnightblue;
+}
+input#textbox {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    color: white;
+    background-color: coral;
+    font-size: -webkit-xxx-large;
+    cursor: cell;
+}
+.textbox_div button{
+	padding: 10px 30px 10px 30px;
+	margin: 50px 100px 10px 100px;
+	color:white;
+	font-size:45px;
+	background-color:green;
+	border-radius:10%;
+}
+.recent_added_items{
+	display:block;
+	position:absolute;
+	width: 100%;
+	padding: 0px 0px 60px 0px;
+	max-height:30%;
+	background-color:midnightblue;
+	top:45%;
+	overflow:auto;
+}
+.recent_added_items label{
+	position:relative;
+	color:white;
+	background-color:red;
+	font-size:48px;
+	padding: 10px 20px 10px 20px;
+	margin: 35px 20px 35px 20px;
+}
